@@ -6,9 +6,16 @@ class bangundatar {
 // akses modifier 
 private:
      float panjang,lebar;
-     public:
+public:
      float luas;
 
+     void input (){
+     cout << " masukan panjangnya =";
+     cin >> panjang;
+     cout << " masukan lebarnya = ";
+     cin >> lebar;
+     }
 
 
-}
+
+};
