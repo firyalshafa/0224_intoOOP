@@ -42,10 +42,19 @@ public:
 };
 
 
-
 int main()
 {
-    std::cout << "Hello World!\n";
+    mahasiswa mhs;
+    matakuliah mk;
+
+    mhs.nama = "budi";
+    mhs.umur = 20;
+    mhs.jurusan = " teknik informatika";
+    mhs.output();
+
+    mk.input();
+    mk.output();
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
