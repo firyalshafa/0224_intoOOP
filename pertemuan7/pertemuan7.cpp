@@ -32,6 +32,13 @@ public:
         cout << "sks :";
         cin >> sks;
     }
+
+    void output() {
+        cout << "kode mk: " << kodemk << endl;
+        cout << "nama mk :" << namamk << endl;
+        cout << "sks :" << sks << endl;
+    }
+
 };
 
 
