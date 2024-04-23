@@ -19,7 +19,7 @@ public: // akses modifier
 };
 
 class matakuliah {
-
+private:
 };
 
 
