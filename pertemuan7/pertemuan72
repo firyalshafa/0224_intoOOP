@@ -29,4 +29,7 @@ public:
 
 int main (){
 bangun datar pp;
+pp.input();
+pp.display();
+
 }
